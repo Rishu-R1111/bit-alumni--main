@@ -5,4 +5,4 @@ It also provide a feature to connect with their seniors on linkedIn in an easy m
 
 
 
-https://raunak3108.github.io/connect
+https://connectwithsenior.netlify.app/
