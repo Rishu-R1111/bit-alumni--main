@@ -3,7 +3,7 @@
 .light {
   --mainColor: #610020;
   --hoverColor: #f5e900;
-  --backgroundColor: #000000;
+  --backgroundColor: #320000;
   --darkOne: #ffffff;
   --darkTwo: #ffffff;
   --lightOne: #b70000;
@@ -11,9 +11,9 @@
 }
 
 .dark {
-  --mainColor: #740000;
+  --mainColor: #000000;
   --hoverColor: #fff200;
-  --backgroundColor: #2a010c;
+  --backgroundColor: #000000;
   --darkOne: #f3f3f3;
   --darkTwo: #fff;
   --lightOne: #ccc;
