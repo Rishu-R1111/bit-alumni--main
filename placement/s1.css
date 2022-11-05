@@ -1,26 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .light {
-  --mainColor: #373637;
-  --hoverColor: #ff0000;
-  --backgroundColor: #616161;
-  --darkOne: #ffffff;
-  --darkTwo: #ffffff;
-  --lightOne: #9d9d9d;
-  --lightTwo: rgb(255, 255, 255);
+  --mainColor: #64bcf4;
+  --hoverColor: #5bacdf;
+  --backgroundColor: #f1f8fc;
+  --darkOne: #312f3a;
+  --darkTwo: #45424b;
+  --lightOne: #919191;
+  --lightTwo: #aaa;
 }
 
 .dark {
-  --mainColor: #000000;
-  --hoverColor: #ff0000;
-  --backgroundColor: #000000;
+  --mainColor: #64bcf4;
+  --hoverColor: #5bacdf;
+  --backgroundColor: #192e3a;
   --darkOne: #f3f3f3;
   --darkTwo: #fff;
   --lightOne: #ccc;
   --lightTwo: #e7e3e3;
 }
-
-
 
 *,
 *::before,
@@ -84,14 +82,13 @@ header .container {
 }
 
 .logo {
-  padding-top: 35px;
   display: flex;
   align-items: center;
   cursor: pointer;
 }
 
 .logo img {
-  width: 80px;
+  width: 100px;
   margin-right: 0 rem;
   margin-top: -0.6rem;
 }
@@ -413,48 +410,35 @@ body{
 }
 table{
   border-collapse: collapse;
+ 
 }
-
-button{
-  background-image: linear-gradient(rgb(0, 102, 255), rgb(0, 5, 39));
-}
-
-th{
-  background-image: linear-gradient(rgba(255, 0, 0, 0.684), rgba(158, 4, 4, 0.25));
-  font-family: Helvetica;
-}
-
 th,td{
-  border: 0px solid #00000000;
-  padding: 10px 7px;
+  border: 0px solid #dddddd;
+  padding: 10px 12px;
   font-size: 15px;
   
 }
 tr:nth-child(even){
-  background-color:#610000;
-  color :rgb(248, 248, 248);
+  background-color:#dddddd;
   
 }
 tr:nth-child(odd){
-  background-color: #52020234;
-  color :rgb(248, 248, 248);
+ background-color: #EDEEF1;
 
 }
 td button{
   border:none;
   padding: 6px 20px;
   border-radius: 20px;
-  background-color:#ff006f;
+  background-color:#64bcf4;
   color:#f1f8fc;
 }
 td button:hover {
   cursor: pointer;
-  background-color:  #ff006f ;
+  background-color:  #5bacdf ;
   cursor: pointer;
 }
 .Student_table{
-  padding-left: 12px;
-  padding-right: 5px;
   display: grid;
   align-items: center;
   justify-content: center;
